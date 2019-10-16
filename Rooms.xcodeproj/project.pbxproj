@@ -15,6 +15,10 @@
 		CCBDF01D2355936000716249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBDF01B2355936000716249 /* LaunchScreen.storyboard */; };
 		CCBDF0282355936000716249 /* RoomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDF0272355936000716249 /* RoomsTests.swift */; };
 		CCBDF0332355936000716249 /* RoomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDF0322355936000716249 /* RoomsUITests.swift */; };
+		CCBDF04123559FC300716249 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDF04023559FC300716249 /* Room.swift */; };
+		CCBDF0432355A8E200716249 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDF0422355A8E200716249 /* RoomDetail.swift */; };
+		CCBDF0472355CDFC00716249 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDF0462355CDFC00716249 /* RoomStore.swift */; };
+		CCF67B8E2356DF1100FB7140 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF67B902356DF1100FB7140 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC47638E2356E0BF00E7B9B6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CC47638F2356E0BF00E7B9B6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CCBDF00D2355935F00716249 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBDF0102355935F00716249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCBDF0122355935F00716249 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		CCBDF02E2355936000716249 /* RoomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBDF0322355936000716249 /* RoomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUITests.swift; sourceTree = "<group>"; };
 		CCBDF0342355936000716249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBDF04023559FC300716249 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		CCBDF0422355A8E200716249 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		CCBDF0462355CDFC00716249 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
+		CCF67B8F2356DF1100FB7140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,10 @@
 				CCBDF0102355935F00716249 /* AppDelegate.swift */,
 				CCBDF0122355935F00716249 /* SceneDelegate.swift */,
 				CCBDF0142355935F00716249 /* ContentView.swift */,
+				CCBDF04023559FC300716249 /* Room.swift */,
+				CCBDF0422355A8E200716249 /* RoomDetail.swift */,
+				CCBDF0462355CDFC00716249 /* RoomStore.swift */,
+				CCF67B902356DF1100FB7140 /* Localizable.strings */,
 				CCBDF0162355936000716249 /* Assets.xcassets */,
 				CCBDF01B2355936000716249 /* LaunchScreen.storyboard */,
 				CCBDF01E2355936000716249 /* Info.plist */,
@@ -222,6 +236,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = CCBDF0042355935F00716249;
 			productRefGroup = CCBDF00E2355935F00716249 /* Products */;
@@ -241,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBDF01D2355936000716249 /* LaunchScreen.storyboard in Resources */,
+				CCF67B8E2356DF1100FB7140 /* Localizable.strings in Resources */,
 				CCBDF01A2355936000716249 /* Preview Assets.xcassets in Resources */,
 				CCBDF0172355936000716249 /* Assets.xcassets in Resources */,
 			);
@@ -267,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBDF0432355A8E200716249 /* RoomDetail.swift in Sources */,
 				CCBDF0112355935F00716249 /* AppDelegate.swift in Sources */,
 				CCBDF0132355935F00716249 /* SceneDelegate.swift in Sources */,
+				CCBDF04123559FC300716249 /* Room.swift in Sources */,
+				CCBDF0472355CDFC00716249 /* RoomStore.swift in Sources */,
 				CCBDF0152355935F00716249 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,8 +328,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				CCBDF01C2355936000716249 /* Base */,
+				CC47638E2356E0BF00E7B9B6 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF67B902356DF1100FB7140 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF67B8F2356DF1100FB7140 /* en */,
+				CC47638F2356E0BF00E7B9B6 /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
